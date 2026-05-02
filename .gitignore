@@ -1,0 +1,11 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Datasets - não meter dados no repositório
+*.csv
+*.xlsx
+*.zip
+
+# Python
+__pycache__/
+*.pyc
