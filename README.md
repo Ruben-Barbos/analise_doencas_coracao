@@ -14,19 +14,19 @@ https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data
 pip install pandas numpy matplotlib seaborn
 ```
 ## Notebook Structure
-- **Section 1** — Data exploration (shape, types, statistics)
-- **Section 2** — Data cleaning (impossible zero values)
-- **Section 3** — Missing value analysis (by hospital and disease status)
-- **Section 4** — Univariate analysis (distribution of all 15 variables)
-- **Section 5** — Bivariate analysis (each variable vs disease severity)
-- **Section 6** — Correlation heatmaps (severity and binary)
-- **Section 7** — Conclusions
+- **Section 1** - Data exploration (shape, types, statistics)
+- **Section 2** - Data cleaning (impossible zero values)
+- **Section 3** - Missing value analysis (by hospital and disease status)
+- **Section 4** - Univariate analysis (distribution of all 15 variables)
+- **Section 5** - Bivariate analysis (each variable vs disease severity)
+- **Section 6** - Correlation heatmaps (severity and binary)
+- **Section 7** - Conclusions
 
 ## Key Findings
-- **`ca` is the strongest predictor** — number of major vessels colored by 
+- **`ca` is the strongest predictor** - number of major vessels colored by 
 fluoroscopy shows the highest correlation with both disease presence (0.48) 
 and severity (0.53).
-- **Most variables correlate more strongly with severity than with disease presence** —
+- **Most variables correlate more strongly with severity than with disease presence** -
 This may suggests that for most variables, the continuous severity scale (0-4) captures 
 more clinical signal than a simple disease/no disease split.
 - **`chol` and `trestbps` are weak predictors** - contrary to common 
