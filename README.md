@@ -48,5 +48,5 @@ modeling.
 ## Plots
 ![Univariate Analysis](analysis_univariate.png)
 ![Bivariate Analysis](analysis_bivariate.png)
-![Correlation — Severity](correlaction_severity.png)
+![Correlation — Severity](correlation_severity.png)
 ![Correlation — Presence](correlation_presence.png)
